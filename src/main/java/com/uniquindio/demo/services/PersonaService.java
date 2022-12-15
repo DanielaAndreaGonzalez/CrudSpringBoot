@@ -17,9 +17,6 @@ import com.uniquindio.demo.models.Persona;
  * @author GonzalezHDanielaA
  *
  */
-
-
- 
 @Service
 public class PersonaService implements IPersonaService{
 
@@ -52,7 +49,8 @@ public class PersonaService implements IPersonaService{
 
 	@Override
 	public void delete(int id) {
-		// TODO Auto-generated method stub
+		
+		data.deleteById(id);
 		
 	}
 	
