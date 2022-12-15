@@ -29,7 +29,7 @@ public class ControladorPersona {
 	@GetMapping("/listar")
 	public String listar(Model model) {
 		List<Persona> personas = service.listar();
-		model.addAttribute("personas",personas);
+		model.addAttribute("personas", personas);
 		return "index";
 	}
 	

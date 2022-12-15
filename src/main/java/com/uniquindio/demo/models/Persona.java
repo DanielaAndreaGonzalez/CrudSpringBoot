@@ -18,7 +18,7 @@ import javax.persistence.Table;
 public class Persona {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY) //será el id de la tabla persona
 	private int id;
 	private String name;
 	private String telefono;
