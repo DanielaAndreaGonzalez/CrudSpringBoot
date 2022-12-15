@@ -30,7 +30,7 @@
 					<td th:text= "${persona.name}"></td>
 					<td th:text= "${persona.telefono}"></td>
 					<td> 
-						<a class="btn btn-warning">Editar</a>
+						<a  th:href="@{/editar/}+${persona.id}"  class="btn btn-warning">Editar</a>
 						<a class="btn btn-danger">Eliminar</a>
 					</td>
 	
